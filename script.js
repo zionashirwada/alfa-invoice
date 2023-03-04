@@ -45,6 +45,8 @@ function generateInvoice() {
   <title>Alpa Creation - Invoice ${invoiceNumber}</title>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'><link rel="stylesheet" href="invoice.css">
 
+
+  <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
 <!-- partial:index.partial.html -->
