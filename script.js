@@ -68,7 +68,7 @@ function generateInvoice() {
     <div class="row">
       
       <div class="col-7"><div class="col-7"><br><br>
-        <p class="text-left"><strong>INVOICE </strong><span style="color: rgb(76, 0, 255);">${invoiceNumber}</span></p>
+        <p class="text-left"><strong>INVOICE </strong><span style="color: rgb(76, 0, 255);">ACI/23/00000${invoiceNumber}</span></p>
       </div>
         <br>
         <p>
