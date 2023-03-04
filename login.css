@@ -10,9 +10,9 @@ body{background-color: rgb(31, 30, 30);}
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    -webkit-box-shadow: 0 0 5px 2px #330aeb;
-    -moz-box-shadow: 0 0 5px 2px #330aeb;
-    box-shadow: 0 0 5px 2px  #330aeb;
+    -webkit-box-shadow: 0 0 2px 2px #0663f8;
+    -moz-box-shadow: 0 0 2px 2px #0663f8;
+    box-shadow: 0 0 2px 2px  #0663f8;
     
   }
   
@@ -65,7 +65,7 @@ body{background-color: rgb(31, 30, 30);}
     letter-spacing: 4px
   }
   
- 
+  
   
   .login-box a span {
     position: absolute;
@@ -87,6 +87,6 @@ body{background-color: rgb(31, 30, 30);}
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #0323f4);
+    background: linear-gradient(90deg, transparent, #0663f8);
     animation: btn-anim1 2s linear infinite;
   }
