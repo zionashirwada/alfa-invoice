@@ -141,7 +141,7 @@ function generateInvoice() {
         </tr>
       </table>
     </div>
-  </div><br><br><br><br><br><br><br><br><br><p align="center">Thank You !</p>
+  </div><br><br><br><p align="center">Thank You !</p>
   <hr>
   <p align="center" class="conditions">
     Email - alfacreation019@gmail.com | Facebook - https://www.facebook.com/AlfACreation/ 
