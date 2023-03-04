@@ -161,7 +161,7 @@ label {
   padding: 8px 16px;
   
   margin-bottom: 15px;
-  width: 70%;
+  width: 43%;
   min-height: 44px;
   border: unset;
   border-radius: 4px;
@@ -176,7 +176,7 @@ label {
               rgba(0, 0, 0, 0) 0px 0px 0px 0px;
             }
               
-.price-input {font-size: 16px;
+.date-input {font-size: 16px;
                 line-height: 28px;
                 padding: 8px 16px;
                 width: 25%;
@@ -194,6 +194,24 @@ label {
                             rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                             rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                             rgba(0, 0, 0, 0) 0px 0px 0px 0px;}
+.price-input {font-size: 16px;
+                              line-height: 28px;
+                              padding: 8px 16px;
+                              width: 25%;
+                              margin-left: 5px;
+                              margin-bottom: 15px;
+                              min-height: 44px;
+                              border: unset;
+                              border-radius: 4px;
+                              outline-color: rgb(84 105 212 / 0.5);
+                              background-color: rgb(255, 255, 255);
+                              box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px;}
 
 #add-item-btn{
 
