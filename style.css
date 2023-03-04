@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  color: #1a1f36;
+  color: #a6a1a1;
   box-sizing: border-box;
   word-wrap: break-word;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
@@ -66,10 +66,10 @@ a {
     box-shadow: inset 0 0 0 2px #e3e8ee;
 }
 .box-background--blue {
-    background-color: #5469d4;
+    background-color: #0663f8;
 }
 .box-background--white {
-  background-color: #ffffff; 
+  background-color: #171616; 
 }
 .box-background--blue800 {
     background-color: #212d63;
@@ -109,15 +109,15 @@ a {
     margin: 0px auto;
     width: 100%;
     max-width: 448px;
-    background: #fffefe;
+    background: #1a1a1a;
     border-radius: 4px;
-    box-shadow: rgba(235, 235, 238, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    box-shadow: rgba(32, 32, 34, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
 }
 span {
     display: block;
     font-size: 20px;
     line-height: 28px;
-    color: #1a1f36;
+    color: #fcfcfc;
 }
 .logo{width:250px;}
 label {
@@ -147,7 +147,7 @@ label {
     border: unset;
     border-radius: 4px;
     outline-color: rgb(84 105 212 / 0.5);
-    background-color: rgb(255, 255, 255);
+    background-color: #0b0a0a;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                 rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                 rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
@@ -166,7 +166,7 @@ label {
   border: unset;
   border-radius: 4px;
   outline-color: rgb(84 105 212 / 0.5);
-  background-color: rgb(255, 255, 255);
+  background-color: #0b0a0a;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
               rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
               rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
@@ -186,7 +186,7 @@ label {
                 border: unset;
                 border-radius: 4px;
                 outline-color: rgb(84 105 212 / 0.5);
-                background-color: rgb(255, 255, 255);
+                background-color: #0b0a0a;
                 box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                             rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                             rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
@@ -204,7 +204,7 @@ label {
                               border: unset;
                               border-radius: 4px;
                               outline-color: rgb(84 105 212 / 0.5);
-                              background-color: rgb(255, 255, 255);
+                              background-color: #0b0a0a;
                               box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                                           rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                                           rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
@@ -216,7 +216,7 @@ label {
 #add-item-btn{
 
   appearance: none;
-  background-color: transparent;
+  background-color:#111010 ;
   border: 0.125em solid #1A1A1A;
   border-radius: 0.9375em;
   box-sizing: border-box;
@@ -285,7 +285,7 @@ input[type="submit"] {
               rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
               rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
               rgba(0, 0, 0, 0) 0px 0px 0px 0px;
-  background-color: rgb(84, 105, 212);
+  background-color: #0063ff;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
               rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
               rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
@@ -325,16 +325,16 @@ a.ssolink {
 }
 
 .animationRightLeft {
-  animation: animationRightLeft 2s ease-in-out infinite;
+  animation: animationRightLeft 4s ease-in-out infinite;
 }
 .animationLeftRight {
-  animation: animationLeftRight 2s ease-in-out infinite;
+  animation: animationLeftRight 5s ease-in-out infinite;
 }
 .tans3s {
-  animation: animationLeftRight 3s ease-in-out infinite;
+  animation: animationLeftRight 6s ease-in-out infinite;
 }
 .tans4s {
-  animation: animationLeftRight 4s ease-in-out infinite;
+  animation: animationLeftRight 7s ease-in-out infinite;
 }
 
 @keyframes animationLeftRight {
