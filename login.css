@@ -65,15 +65,7 @@ body{background-color: rgb(31, 30, 30);}
     letter-spacing: 4px
   }
   
-  .login-box a:hover {
-    background: #0323f4;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #0323f4,
-                0 0 25px #0323f4,
-                0 0 50px #0323f4,
-                0 0 100px #0323f4;
-  }
+ 
   
   .login-box a span {
     position: absolute;
