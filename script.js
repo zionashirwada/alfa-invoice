@@ -2,6 +2,7 @@
       const addItemBtn = document.getElementById('add-item-btn');
 addItemBtn.addEventListener('click', addItem);
 
+
 function addItem() {
   // Create a new item row with description and price inputs
   const itemContainer = document.getElementById('item-container');
@@ -9,6 +10,7 @@ function addItem() {
   newItemRow.classList.add('item-row');
   newItemRow.innerHTML = `
     <input type="text" class="description-input" placeholder="Description">
+    <input type="text" class="date-input" placeholder="Date">
     <input type="number" class="price-input" placeholder="Price">
   `;
   itemContainer.appendChild(newItemRow);
@@ -23,6 +25,7 @@ function generateInvoice() {
   const invoiceNumber = document.getElementById('invoice-number').value;
   const billTo = document.getElementById('bill-to').value;
   const descriptions = document.getElementsByClassName('description-input');
+    const dates = document.getElementsByClassName('date-input');
   const prices = document.getElementsByClassName('price-input');
   const discount = document.getElementById('discount').value;
   const advance = document.getElementById('advance').value;
@@ -49,7 +52,7 @@ function generateInvoice() {
   <div class="invoice">
     <div class="row">
       <div class="col-7">
-        <img src="https://lh3.googleusercontent.com/Lv7e99xBYEFrO4EOZrIP0S1fTSW1TIl0I7cVrPlY_S_B92haulW3I8FaoDbbYoR0y5Ed_kmRGjMgebtHj98XJx3Ja9mH7PKgbOqNaKNXdQVLxtzc2NuMVMjtzPTvCrTCySAnUDXr=w2400" style="width:250px">
+        <img src="https://lh3.googleusercontent.com/XBnXCs9WNnoKpiYsmi5ftdz0eXvIe802h_i2XQujNN84n95HlvIUF4kwEyzDYuVNPIPxGwITontgmlXcTGtyaZdGaH4wfskviJJzy76WOVdM-rFLGoiahUJ8tlAR99hvT522gZnL=w2400" style="width:250px">
       </div><div class="col-5">
         <p class="text-right">
           <strong>ALFA Creation</strong><br>
@@ -63,7 +66,7 @@ function generateInvoice() {
     <div class="row">
       
       <div class="col-7"><div class="col-7"><br><br>
-        <p class="text-left"><strong>INVOICE </strong><span style="color: rgb(76, 0, 255); font-weight: 700;>${invoiceNumber}</span></p>
+        <p class="text-left"><strong>INVOICE </strong><span style="color: rgb(76, 0, 255);">${invoiceNumber}</span></p>
       </div>
         <br>
         <p>
@@ -82,9 +85,9 @@ function generateInvoice() {
           <th>Description</th>
           <th></th>
           <th></th>
+          <th class="text-right">Date</th>
           <th></th>
-          <th></th>
-          <th>Price</th>
+          <th class="text-right">Price</th>
         </tr>
       </thead>
       <tbody>
@@ -94,14 +97,15 @@ function generateInvoice() {
   // Loop through each item and add it to the invoice HTML
   for (let i = 0; i < descriptions.length; i++) {
     const description = descriptions[i].value;
+    const date = dates[i].value;
     const price = prices[i].value;
-    if (description !== '' && price !== '') {
+    if (description !== ''&& date !== '' && price !== '') {
       invoiceHTML += `
       <tr>
       <td>${description}</td>
       <td></td>
       <td></td>
-      <td class="text-right"></td>
+      <td class="text-right">${date}</td>
       <td></td>
       <td class="text-right">${price} LKR</td>
     </tr>
