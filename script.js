@@ -59,7 +59,7 @@ function generateInvoice() {
         <p class="text-right">
           <strong>ALFA Creation</strong><br>
           No.527/15 Suhada Mavatha<br>
-          liyanage mulla,seeduwa<br>
+          Liyanagemulla,Seeduwa<br>
           Srilanka
         </p>
       </div>
