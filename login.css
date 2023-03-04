@@ -8,8 +8,12 @@ body{background-color: rgb(31, 30, 30);}
     transform: translate(-50%, -50%);
     background: rgba(24, 20, 20, 0.987);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 2px #330aeb;
+    -moz-box-shadow: 0 0 5px 2px #330aeb;
+    box-shadow: 0 0 5px 2px  #330aeb;
+    
   }
   
   .login-box .user-box {
