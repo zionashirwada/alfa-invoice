@@ -42,7 +42,7 @@ function generateInvoice() {
   // Create the invoice HTML
   let invoiceHTML = `
   <meta charset="UTF-8">
-  <title>ALFA Creation - Invoice </title>
+  <title>ALFA Creation - ACI/23/${invoiceNumber} </title>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'><link rel="stylesheet" href="invoice.css">
 
 
