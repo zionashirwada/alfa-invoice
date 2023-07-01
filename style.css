@@ -161,7 +161,7 @@ label {
   padding: 8px 16px;
   
   margin-bottom: 15px;
-  width: 43%;
+  width: 35%;
   min-height: 44px;
   border: unset;
   border-radius: 4px;
@@ -179,7 +179,7 @@ label {
 .date-input {font-size: 16px;
                 line-height: 28px;
                 padding: 8px 16px;
-                width: 25%;
+                width: 23%;
                 margin-left: 5px;
                 margin-bottom: 15px;
                 min-height: 44px;
@@ -197,7 +197,7 @@ label {
 .price-input {font-size: 16px;
                               line-height: 28px;
                               padding: 8px 16px;
-                              width: 25%;
+                              width: 23%;
                               margin-left: 5px;
                               margin-bottom: 15px;
                               min-height: 44px;
@@ -212,6 +212,28 @@ label {
                                           rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                                           rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                                           rgba(0, 0, 0, 0) 0px 0px 0px 0px;}
+                                          .delete-button {
+                                            cursor: pointer;
+                                            color: red;
+                                            font-weight: bold;
+                                            font-size: 16px;
+                              line-height: 28px;
+                              padding: 8px 16px;
+                                                            margin-bottom: 15px;
+                              min-height: 44px;
+                              border: unset;
+                              border-radius: 4px;
+                              outline-color: rgb(84 105 212 / 0.5);
+                              background-color: #0b0a0a;
+                              box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                                          rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+                                          }
+
 
 #add-item-btn{
 
