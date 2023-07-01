@@ -66,6 +66,7 @@
         <input type="text" class="description-input" placeholder="Description">
         <input type="text" class="date-input" placeholder="Date">
         <input type="number" class="price-input" placeholder="Price">
+        <button class="delete-button" onclick="deleteItem(this)">X</button>
       </div>
     </div>
     <button id="add-item-btn">Add Item</button><br><br>
@@ -97,6 +98,10 @@
 
 </html>
 <!-- partial --><script src="script.js"></script>
+<script> function deleteItem(element) {
+  var itemRow = element.parentNode;
+  itemRow.parentNode.removeChild(itemRow);
+}</script>
   
 </body>
 </html>
