@@ -12,6 +12,7 @@ function addItem() {
     <input type="text" class="description-input" placeholder="Description">
     <input type="text" class="date-input" placeholder="Date">
     <input type="number" class="price-input" placeholder="Price">
+    <button class="delete-button" onclick="deleteItem(this)">X</button>
   `;
   itemContainer.appendChild(newItemRow);
 }
@@ -144,7 +145,7 @@ function generateInvoice() {
   </div><br><br><br><p align="center">Thank You !</p>
   <hr>
   <p align="center" class="conditions">
-    Email - alfacreation019@gmail.com | Facebook - https://www.facebook.com/AlfACreation/ 
+    Email - alfacreation019@gmail.com | Facebook - https://www.facebook.com/AlfACreationLK/ 
          
   </p>
   
