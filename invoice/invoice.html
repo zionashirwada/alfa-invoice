@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Alfa Creation - Invoice Generator </title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="../Assets/favicon.png">
+
+</head>
+
+<!-- partial:index.partial.html -->
+
+<body>
+  <div class="login-root">
+    <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+      <div class="loginbackground box-background--white padding-top--64">
+        <div class="loginbackground-gridContainer">
+          <div class="box-root flex-flex" style="grid-area: top / start / 8 / end;">
+            <div class="box-root" style="background-image: rgb(0, 0, 0) 0%; flex-grow: 1;">
+            </div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 4 / 2 / auto / 5;">
+            <div class="box-root box-divider--light-all-2 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 6 / start / auto / 2;">
+            <div class="box-root box-background--blue800" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 7 / start / auto / 4;">
+            <div class="box-root box-background--blue animationLeftRight" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 8 / 4 / auto / 6;">
+            <div class="box-root box-background--gray100 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 2 / 15 / auto / end;">
+            <div class="box-root box-background--cyan200 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 3 / 14 / auto / end;">
+            <div class="box-root box-background--blue animationRightLeft" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 4 / 17 / auto / 20;">
+            <div class="box-root box-background--gray100 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 5 / 14 / auto / 17;">
+            <div class="box-root box-divider--light-all-2 animationRightLeft tans3s" style="flex-grow: 1;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <img src="../Assets/logo-w.png" style="width:200px;">
+        </div>
+        <div class="formbg-outer">
+          <div class="formbg">
+            
+            <div class="formbg-inner padding-horizontal--48">
+              <h1>Invoice Generator</h1> <br>
+              <div class="field padding-bottom--24">
+    <label for="invoice-number">Invoice Number:</label>
+    <input type="text" id="invoice-number" placeholder="ACI/24/00000">
+
+    <label>Bill To:</label>
+    <input type="text" id="bill-to">
+     </div>
+    <h3>Items:</h3> <br>
+    <div id="item-container">
+      <div class="item-row">
+        <input type="text" class="description-input" placeholder="Description">
+        <input type="text" class="date-input" placeholder="Date">
+        <input type="text" class="qty-input" placeholder="Qty">
+        <input type="number" class="price-input" placeholder="Price">
+        <button class="delete-button" onclick="deleteItem(this)">X</button>
+      </div>
+    </div>
+    <button id="add-item-btn">Add Item</button><br><br>
+  
+      <div class="field padding-bottom--24">
+        <label>Discount:</label>
+        <input type="text" id="discount" placeholder="LKR">
+    
+        <label>Advance:</label>
+        <input type="text" id="advance" placeholder="LKR">
+</div>
+    
+
+    
+    <div class="field padding-bottom--24">
+      
+      <button id="generate-invoice-btn">Generate Invoice</button>
+    </div></div></div><div class="footer-link padding-top--24">
+      <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
+        <span><a href="https://rebrand.ly/zion_ashir">© Ashirwada Manamudali</a></span>
+      
+        
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial --><script src="invoice.js"></script>
+<script> function deleteItem(element) {
+  var itemRow = element.parentNode;
+  itemRow.parentNode.removeChild(itemRow);
+}</script>
+  
+</body>
+</html>

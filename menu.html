@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Alfa Invoice | Menu </title>
+  <link rel="stylesheet" href="./menu.css">
+  
+  <link rel="icon" type="image/x-icon" href="Assets/favicon.png">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div role="button" onclick="openInvoice()"> 
+  <span class="glow"></span>
+  <div>
+    <span>Invoice</span>Generator 
+  </div>
+</div>
+
+
+
+
+
+
+<div role="button" onclick="openQuote()">
+  <span class="glow"></span>
+  <div>
+    <span>Quotation</span>Generator
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./menu.js"></script>
+  <script>
+    // JavaScript function to open invoice.html
+    function openInvoice() {
+    
+      window.location.href = 'invoice/invoice.html';
+    }
+
+    function openQuote() {
+    
+    window.location.href = 'Quote/quotation.html';
+  }
+  </script>
+
+</body>
+</html>
