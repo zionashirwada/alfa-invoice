@@ -60,11 +60,11 @@ function generateInvoice() {
       <div class="col-7">
         <img src="https://lh3.googleusercontent.com/pw/ABLVV86xDWTsOaA5xTjORdI7WKku1ejrgJgvQY-zvOnrk6QhGyTXLmzTGZXL9tF3aIJhDS3jJnkhk2YYA9h65PkicosWvGohYAygqerZvk9G6ee6TBkynZY=w2400" style="width:250px">
       </div><div class="col-5">
-        <p class="text-right">
+        <p class="text-right" style="font-size:14px;">
           <strong>ALFA Creation</strong><br>
           No.527/15 <br> Suhada Mawatha<br>
           Liyanagemulla,Seeduwa<br>
-          Srilanka
+          SriLanka
         </p>
       </div>
       
